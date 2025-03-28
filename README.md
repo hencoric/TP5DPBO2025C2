@@ -82,30 +82,35 @@ C. Menyediakan metode insertUpdateDeleteQuery() untuk operasi tambah, ubah, dan 
 3. ERROR Jika NIM sudah ada
    ![image](https://github.com/user-attachments/assets/11883aec-1de9-467d-bbb8-4bffcdafb0dc)
      
-4. Dalam Database
+4. Dalam Database  
    ![image](https://github.com/user-attachments/assets/07931f73-0f25-419e-accc-30f5a06b77ef)
 
 
 ### UPDATE 
 
 1. Pilih data yang ingin di update dan ganti data yang sudah ada  
-   ![image](https://github.com/user-attachments/assets/31662f92-2adb-4a28-80d4-95ea88a5a478)  
-  
+   ![image](https://github.com/user-attachments/assets/2396eb60-4273-48cf-ba09-ebe45d33409f)
+
 2. Tekan tombol update akan muncul pemberitahuan sukses dan formulir dikosongkan  
-   
+   ![image](https://github.com/user-attachments/assets/93e8851d-ebf1-4460-88b4-585a79ba3416)
 
-3. ERROR Jika NIM sudah ada
-   ![image](https://github.com/user-attachments/assets/574ee9c2-916a-4271-8fcc-f193af7902a2)
+3. ERROR Jika NIM sudah ada  
+   ![image](https://github.com/user-attachments/assets/c5744585-7396-4274-919b-0ed0ff9d9399)
 
-5. Dalam Database
+5. Dalam Database  
+   ![image](https://github.com/user-attachments/assets/112eebb8-39fc-438b-8a5b-c68874c03b08)
 
 ### DELETE
 
 1. Pilih data yang ingin di hapus dan tekan delete  
-   ![image](https://github.com/user-attachments/assets/5c24c79c-c91e-45d1-8f09-c6202735d1bc)  
-
+   ![image](https://github.com/user-attachments/assets/29399ebd-299e-48bc-9525-e2f1939003ad)
+ 
 2. Tekan Yes  
-   ![image](https://github.com/user-attachments/assets/6ff7dd5a-a7d1-4823-8151-4f28e9002c8c)  
+   ![image](https://github.com/user-attachments/assets/d291171d-1b72-4a74-a8f2-9e2f145052f0)
 
 3. Akan Ada pemberitahuan sukses  
-   ![image](https://github.com/user-attachments/assets/ec534a39-f896-49ee-ad3d-e28ad5a7324c)  
+   ![image](https://github.com/user-attachments/assets/d469cf35-1fde-4f41-a7fa-947b994d483a)
+  
+4. Dalam Database
+   ![image](https://github.com/user-attachments/assets/040a9807-f1a9-46ab-ae15-4449696e5462)
+
