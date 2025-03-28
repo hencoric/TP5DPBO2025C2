@@ -44,46 +44,27 @@ C. Menyediakan metode insertUpdateDeleteQuery() untuk operasi tambah, ubah, dan 
 - Formulir dikosongkan (clearForm()).
 - Muncul notifikasi sukses.
 
-c. Memilih Data di Tabel
+## c. Memilih Data di Tabel
+- Pengguna mengklik baris data dalam JTable.
+- Data dari tabel dimasukkan ke dalam input field.
+- Tombol Add berubah menjadi Update.
+- Tombol Delete ditampilkan.
 
-Pengguna mengklik baris data dalam JTable.
+## d. Memperbarui Data Mahasiswa
+- Pengguna mengubah data mahasiswa yang telah dipilih.
+- Klik tombol Update.
+- Jika NIM diubah, sistem memeriksa apakah NIM baru sudah ada di database.
+- Jika ada, muncul notifikasi bahwa NIM sudah digunakan.
+- Jika tidak, data diperbarui di database menggunakan UPDATE mahasiswa SET ... WHERE nim=....
+- Tabel diperbarui.
+- Formulir dikosongkan.
+- Notifikasi sukses muncul.
 
-Data dari tabel dimasukkan ke dalam input field.
-
-Tombol Add berubah menjadi Update.
-
-Tombol Delete ditampilkan.
-
-d. Memperbarui Data Mahasiswa
-
-Pengguna mengubah data mahasiswa yang telah dipilih.
-
-Klik tombol Update.
-
-Jika NIM diubah, sistem memeriksa apakah NIM baru sudah ada di database.
-
-Jika ada, muncul notifikasi bahwa NIM sudah digunakan.
-
-Jika tidak, data diperbarui di database menggunakan UPDATE mahasiswa SET ... WHERE nim=....
-
-Tabel diperbarui.
-
-Formulir dikosongkan.
-
-Notifikasi sukses muncul.
-
-e. Menghapus Data Mahasiswa
-
-Pengguna memilih data di tabel.
-
-Klik tombol Delete.
-
-Konfirmasi penghapusan muncul.
-
-Jika memilih Yes, data dihapus dari database menggunakan DELETE FROM mahasiswa WHERE nim=....
-
-Tabel diperbarui.
-
-Formulir dikosongkan.
-
-Notifikasi sukses muncul.
+## e. Menghapus Data Mahasiswa
+- Pengguna memilih data di tabel.
+- Klik tombol Delete.
+- Konfirmasi penghapusan muncul.
+- Jika memilih Yes, data dihapus dari database menggunakan DELETE FROM mahasiswa WHERE nim=....
+- Tabel diperbarui.
+- Formulir dikosongkan.
+- Notifikasi sukses muncul.
