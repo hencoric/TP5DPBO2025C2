@@ -63,7 +63,6 @@ public class Menu extends JFrame{
     public Menu() {
         listMahasiswa = new ArrayList<>();
         database = new Database();
-        populateList();
         mahasiswaTable.setModel(setTable());
         String[] jenisKelaminData = {"", "Laki-laki", "Perempuan"};
         jenisKelaminComboBox.setModel(new DefaultComboBoxModel(jenisKelaminData));
@@ -166,11 +165,13 @@ public class Menu extends JFrame{
             return;
         }
 
+        // Jika NIM diubah, pastikan NIM baru belum ada di database
         if (!nim.equals(oldNim) && isNimExists(nim)) {
             JOptionPane.showMessageDialog(null, "NIM sudah terdaftar! Gunakan NIM lain.");
             return;
         }
 
+        // Lakukan update
         String sql = "UPDATE mahasiswa SET nim='" + nim + "', nama='" + nama + "', jenis_kelamin='" + jenisKelamin + "', jenjang='" + tingkat + "' WHERE nim='" + oldNim + "';";
         database.insertUpdateDeleteQuery(sql);
         mahasiswaTable.setModel(setTable());
@@ -226,28 +227,5 @@ public class Menu extends JFrame{
         if (s2RadioButton.isSelected()) return "S2";
         if (d4RadioButton.isSelected()) return "D4";
         return "";
-    }
-
-    private void populateList() {
-        listMahasiswa.add(new Mahasiswa("2203999", "Amelia Zalfa Julianti", "Perempuan", "S1"));
-        listMahasiswa.add(new Mahasiswa("2202292", "Muhammad Iqbal Fadhilah", "Laki-laki", "S1"));
-        listMahasiswa.add(new Mahasiswa("2202346", "Muhammad Rifky Afandi", "Laki-laki", "S2"));
-        listMahasiswa.add(new Mahasiswa("2210239", "Muhammad Hanif Abdillah", "Laki-laki", "D4"));
-        listMahasiswa.add(new Mahasiswa("2202046", "Nurainun", "Perempuan", "S1"));
-        listMahasiswa.add(new Mahasiswa("2205101", "Kelvin Julian Putra", "Laki-laki", "S2"));
-        listMahasiswa.add(new Mahasiswa("2200163", "Rifanny Lysara Annastasya", "Perempuan", "D4"));
-        listMahasiswa.add(new Mahasiswa("2202869", "Revana Faliha Salma", "Perempuan", "S1"));
-        listMahasiswa.add(new Mahasiswa("2209489", "Rakha Dhifiargo Hariadi", "Laki-laki", "S2"));
-        listMahasiswa.add(new Mahasiswa("2203142", "Roshan Syalwan Nurilham", "Laki-laki", "D4"));
-        listMahasiswa.add(new Mahasiswa("2200311", "Raden Rahman Ismail", "Laki-laki", "S1"));
-        listMahasiswa.add(new Mahasiswa("2200978", "Ratu Syahirah Khairunnisa", "Perempuan", "S2"));
-        listMahasiswa.add(new Mahasiswa("2204509", "Muhammad Fahreza Fauzan", "Laki-laki", "D4"));
-        listMahasiswa.add(new Mahasiswa("2205027", "Muhammad Rizki Revandi", "Laki-laki", "S1"));
-        listMahasiswa.add(new Mahasiswa("2203484", "Arya Aydin Margono", "Laki-laki", "S2"));
-        listMahasiswa.add(new Mahasiswa("2200481", "Marvel Ravindra Dioputra", "Laki-laki", "D4"));
-        listMahasiswa.add(new Mahasiswa("2209889", "Muhammad Fadlul Hafiizh", "Laki-laki", "S1"));
-        listMahasiswa.add(new Mahasiswa("2206697", "Rifa Sania", "Perempuan", "S2"));
-        listMahasiswa.add(new Mahasiswa("2207260", "Imam Chalish Rafidhul Haque", "Laki-laki", "D4"));
-        listMahasiswa.add(new Mahasiswa("2204343", "Meiva Labibah Putri", "Perempuan", "S1"));
     }
 }
