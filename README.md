@@ -80,7 +80,11 @@ C. Menyediakan metode insertUpdateDeleteQuery() untuk operasi tambah, ubah, dan 
    ![image](https://github.com/user-attachments/assets/e07cd6a0-b31c-4628-8362-52cdaefbb794)
 
 3. ERROR Jika NIM sudah ada
+   ![image](https://github.com/user-attachments/assets/11883aec-1de9-467d-bbb8-4bffcdafb0dc)
+     
 4. Dalam Database
+   ![image](https://github.com/user-attachments/assets/07931f73-0f25-419e-accc-30f5a06b77ef)
+
 
 ### UPDATE 
 
@@ -88,7 +92,7 @@ C. Menyediakan metode insertUpdateDeleteQuery() untuk operasi tambah, ubah, dan 
    ![image](https://github.com/user-attachments/assets/31662f92-2adb-4a28-80d4-95ea88a5a478)  
   
 2. Tekan tombol update akan muncul pemberitahuan sukses dan formulir dikosongkan  
-   ![image](https://github.com/user-attachments/assets/11883aec-1de9-467d-bbb8-4bffcdafb0dc)
+   
 
 3. ERROR Jika NIM sudah ada
    ![image](https://github.com/user-attachments/assets/574ee9c2-916a-4271-8fcc-f193af7902a2)
