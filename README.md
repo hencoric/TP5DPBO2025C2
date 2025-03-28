@@ -1,3 +1,7 @@
+# JANJI
+
+Saya Marco Henrik Abineno dengan NIM 2301093 berjanji mengerjakan TP4 DPBO dengan keberkahan-Nya, maka saya tidak akan melakukan kecurangan sesuai yang telah di spesifikasikan, Aamiin  
+  
 # DESAIN PROGRAM
 
 Program ini adalah Aplikasi Manajemen Data Mahasiswa berbasis Java Swing yang memungkinkan pengguna untuk menambahkan, memperbarui, dan menghapus data mahasiswa yang tersimpan dalam database MySQL. Aplikasi ini memiliki antarmuka grafis sederhana dengan komponen utama sebagai berikut:
