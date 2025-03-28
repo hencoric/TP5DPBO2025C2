@@ -166,13 +166,11 @@ public class Menu extends JFrame{
             return;
         }
 
-        // Jika NIM diubah, pastikan NIM baru belum ada di database
         if (!nim.equals(oldNim) && isNimExists(nim)) {
             JOptionPane.showMessageDialog(null, "NIM sudah terdaftar! Gunakan NIM lain.");
             return;
         }
 
-        // Lakukan update
         String sql = "UPDATE mahasiswa SET nim='" + nim + "', nama='" + nama + "', jenis_kelamin='" + jenisKelamin + "', jenjang='" + tingkat + "' WHERE nim='" + oldNim + "';";
         database.insertUpdateDeleteQuery(sql);
         mahasiswaTable.setModel(setTable());
