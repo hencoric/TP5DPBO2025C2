@@ -68,3 +68,40 @@ C. Menyediakan metode insertUpdateDeleteQuery() untuk operasi tambah, ubah, dan 
 - Tabel diperbarui.
 - Formulir dikosongkan.
 - Notifikasi sukses muncul.
+
+# DOKUMENTASI
+
+### ADD
+
+1. Input Data  
+   ![image](https://github.com/user-attachments/assets/2abad730-0678-49dc-b906-43226a7233ff)
+
+2. Tekan Tombol Add dan akan muncul pemberitahuan sukses dan formulir dikosongkan  
+   ![image](https://github.com/user-attachments/assets/e07cd6a0-b31c-4628-8362-52cdaefbb794)
+
+3. ERROR Jika NIM sudah ada
+4. Dalam Database
+
+### UPDATE 
+
+1. Pilih data yang ingin di update dan ganti data yang sudah ada  
+   ![image](https://github.com/user-attachments/assets/31662f92-2adb-4a28-80d4-95ea88a5a478)  
+  
+2. Tekan tombol update akan muncul pemberitahuan sukses dan formulir dikosongkan  
+   ![image](https://github.com/user-attachments/assets/11883aec-1de9-467d-bbb8-4bffcdafb0dc)
+
+3. ERROR Jika NIM sudah ada
+   ![image](https://github.com/user-attachments/assets/574ee9c2-916a-4271-8fcc-f193af7902a2)
+
+5. Dalam Database
+
+### DELETE
+
+1. Pilih data yang ingin di hapus dan tekan delete  
+   ![image](https://github.com/user-attachments/assets/5c24c79c-c91e-45d1-8f09-c6202735d1bc)  
+
+2. Tekan Yes  
+   ![image](https://github.com/user-attachments/assets/6ff7dd5a-a7d1-4823-8151-4f28e9002c8c)  
+
+3. Akan Ada pemberitahuan sukses  
+   ![image](https://github.com/user-attachments/assets/ec534a39-f896-49ee-ad3d-e28ad5a7324c)  
